@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #B0E0AC;
+    --color2: #CDEFCA;
+    --color3: #070707;
+    --color4: #CDEFCA;
+    --color5: #CDEFCA;
+}
+
+nav {
+    height: 30px;
+    width: 50vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color3);
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+nav button ion-icon {
+    width: 25px;
+    height: 25px;
+    color: #fff;
+}
+
