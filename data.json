@@ -1,4 +1,18 @@
 {
     "user": "Tester",
-    "company": "Opp Solitions"
+    "company": "Opp Solitions",
+    "warns": [
+        {
+            "name": "Copa",
+            "image": "kitchen.png",
+            "imageDescription": "Imagem da Copa",
+            "color": "#96A8E8"
+        },
+        {
+            "name": "Recepção",
+            "image": "reception.png",
+            "imageDescription": "Imagem da Recepção",
+            "color": "#E3C837"
+        }
+    ]
 }
