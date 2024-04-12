@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +10,12 @@
     --color1: #B0E0AC;
     --color2: #CDEFCA;
     --color3: #070707;
-    --color4: #CDEFCA;
+    --color4: #97C993;
     --color5: #CDEFCA;
+}
+
+p, h1, h2 {
+    font-family: "Public Sans", sans-serif;
 }
 
 nav {
@@ -19,7 +25,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 25px;
     position: fixed;
     bottom: 5px;
     left: 50%;
