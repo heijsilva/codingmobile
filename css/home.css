@@ -35,47 +35,38 @@ main {
 
 
 /* Section warns*/
-section {
+.warnElement {
     position: relative;
     display: flex;
     gap: 5px;
     flex-direction: column;
 }
 
-section .title {
+.warnElement h2 {
     font-size: 2em;
     font-weight: bold;
 }
 
-section .image {
+.warnElement .image {
     position: relative;
     width: 100%;
     height: 160px;
 }
 
-section .img-wrapper {
+.warnElement .img-wrapper {
     position: absolute;
     height: 95%;
     width: 98%;
+    /* box-shadow: 5px 5px 0px 0px rgba(0,0,0,1); */
 }
 
-section .img-wrapper img {
+.warnElement .img-wrapper img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-section .image .bg-color {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    height: 90%;
-    width: 95%;
-    z-index: -1;
-    background-color: blue; /* DEBUG */
-}
-
-section .actions {
+.warnElement .actions {
     display: flex;
     gap: 5px;
     justify-content: center;
@@ -98,11 +89,11 @@ section .actions {
     color: var(--color5);
 }
 
-section .notification {
-    background-color: blue; /* DEBUG */
+.warnElement .notification {
+    /* background-color: blue; DEBUG */
     border-radius: 50px;
-    right: 5px;
-    top: 2.6em;
+    right: 10px;
+    top: 1.4em;
     padding: 5px;
     z-index: 2;
     position: absolute;
