@@ -1,0 +1,28 @@
+@import url('./style.css');
+
+header .welcome {
+    font-size: 1.6em;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+header .message {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+header .message ion-icon {
+    color: var(--color4);
+    width: 16px;
+    height: 16px;
+}
+
+header .companyName {
+    text-align: right;
+    font-style: italic;
+    font-size: 1em;
+    margin-right: 5px;
+}
