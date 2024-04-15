@@ -4,15 +4,22 @@
     "warns": [
         {
             "name": "Copa",
+            "group": "Group IV: Ergonomia",
+            "details": "Recepetitividade",
             "image": "kitchen.png",
             "imageDescription": "Imagem da Copa",
-            "color": "#96A8E8"
+            "color": "#96A8E8",
+            "floorPlaner": "kitchen.png"
+            
         },
         {
             "name": "Recepção",
+            "group": "Group IV: Ergonomia",
+            "details": "Recepetitividade",
             "image": "reception.png",
             "imageDescription": "Imagem da Recepção",
-            "color": "#E3C837"
+            "color": "#E3C837",
+            "floorPlaner": "reception.png"
         }
     ]
 }

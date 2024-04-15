@@ -14,12 +14,27 @@
     --color5: #94C190;
 }
 
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
 p, h1, h2 {
     font-family: "Public Sans", sans-serif;
 }
 
 body {
     margin: 15px 10px 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 nav {
@@ -38,16 +53,26 @@ nav {
 }
 
 nav button {
-    background-color: transparent;
-    border: none;
     height: 25px;
     width: 25px;
-    cursor: pointer;
 }
 
 nav button ion-icon {
     width: 25px;
     height: 25px;
     color: #fff;
+}
+
+.img-wrapper {
+    position: absolute;
+    height: 95%;
+    width: 98%;
+    /* box-shadow: 5px 5px 0px 0px rgba(0,0,0,1); */
+}
+
+.img-wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 

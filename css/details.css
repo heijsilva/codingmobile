@@ -1,0 +1,99 @@
+@import url('./style.css');
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    height: 160px;
+}
+
+.image img-wrpper{
+    width: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.title p {
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.6em;
+}
+
+.details p {
+    font-weight: 100;
+    font-size: 1.2em;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+span {
+    font-size: 1.1em;
+}
+
+.satisfied {
+    color: #B0E0AC;
+}
+
+.neutral {
+    color: #FFE976;
+}
+
+.dissatisfied {
+    color: #FB6E6E;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.report {
+    background-color: #FFF2B1;
+}
+
+.emergency {
+    background-color: #FFAEAE;
+}
+
+.floorplanner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
