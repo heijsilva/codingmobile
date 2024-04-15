@@ -9,8 +9,25 @@
             "image": "kitchen.png",
             "imageDescription": "Imagem da Copa",
             "color": "#96A8E8",
-            "floorPlaner": "kitchen.png"
-            
+            "floorPlaner": "kitchen.png",
+            "workers": [
+                {
+                    "name": "Graça",
+                    "image": "graca.png"
+                },
+                {
+                    "name": "Emma",
+                    "image": "emma.png"
+                },
+                {
+                    "name": "Amanda",
+                    "image": "amanda.png"
+                },
+                {
+                    "name": "Fernanda",
+                    "image": "fernanda.png"
+                }
+            ]            
         },
         {
             "name": "Recepção",
@@ -19,7 +36,25 @@
             "image": "reception.png",
             "imageDescription": "Imagem da Recepção",
             "color": "#E3C837",
-            "floorPlaner": "reception.png"
+            "floorPlaner": "reception.png",
+            "workers": [
+                {
+                    "name": "Graça",
+                    "image": "graca.png"
+                },
+                {
+                    "name": "Emma",
+                    "image": "emma.png"
+                },
+                {
+                    "name": "Amanda",
+                    "image": "amanda.png"
+                },
+                {
+                    "name": "Fernanda",
+                    "image": "fernanda.png"
+                }
+            ]
         }
     ]
 }
