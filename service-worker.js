@@ -39,5 +39,14 @@ async function redeECache(requisicao) {
     const cached = await cache.match(requisicao);  
     return cached;
   }
-
 }
+
+self.addEventListener('fetch', event => {
+  if (event.request.url.includes('/index.html')) {
+    event.respondWith(
+      new Response('<html><head><meta http-equiv="refresh" content="0;url=index.html"></head></html>', {
+        headers: {'Content-Type': 'text/html'}
+      })
+    );
+  }
+});

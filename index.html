@@ -15,6 +15,19 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="js/home.js" defer></script>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/serviceWorker.js').then(function(registration) {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function(err) {
+                console.log('ServiceWorker registration failed: ', err);
+                });
+            });
+        }
+    </script> 
+
 </head>
 <body>
     <header>
