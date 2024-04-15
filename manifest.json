@@ -1,11 +1,11 @@
 {
     "name": "SafeZone",
     "short_name": "SafeZone",
-    "start_url": ".",
+    "start_url": "/splash-screen.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#2196f3",
-    "description": "Aplicativo para mapear pontos de riscos no ecossistema empresarial",
+    "description": "Aplicativo para mapear pontos de riscos no ecossistema empresarial.",
     "orientation": "portrait-primary",
     "icons": [
       {

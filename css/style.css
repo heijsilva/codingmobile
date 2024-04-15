@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #B0E0AC;
+    --color2: #CDEFCA;
+    --color3: #070707;
+    --color4: #97C993;
+    --color5: #94C190;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+p, h1, h2 {
+    font-family: "Public Sans", sans-serif;
+}
+
+body {
+    margin: 15px 10px 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav {
+    height: 30px;
+    width: 50vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color3);
+}
+
+nav button {
+    height: 25px;
+    width: 25px;
+}
+
+nav button ion-icon {
+    width: 25px;
+    height: 25px;
+    color: #fff;
+}
+
+.img-wrapper {
+    position: absolute;
+    height: 95%;
+    width: 98%;
+    /* box-shadow: 5px 5px 0px 0px rgba(0,0,0,1); */
+}
+
+.img-wrapper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
