@@ -3,6 +3,7 @@
     "company": "Opp Solitions",
     "warns": [
         {
+            "id": 0,
             "name": "Copa",
             "group": "Group IV: Ergonomia",
             "details": "Recepetitividade",
@@ -30,6 +31,7 @@
             ]            
         },
         {
+            "id": 1,
             "name": "Recepção",
             "group": "Group IV: Ergonomia",
             "details": "Recepetitividade",
