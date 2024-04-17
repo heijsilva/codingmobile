@@ -2,6 +2,16 @@
 
 
 /* Header */
+header {
+    margin-top: 30px;
+}
+
+header .first-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
 header .welcome {
     font-size: 1.6em;
 }
@@ -28,9 +38,10 @@ header .companyName {
 
 /* Main */
 main {
+    margin-top: 35px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 36px;
 }
 
 
@@ -43,8 +54,9 @@ main {
 }
 
 .warnElement h2 {
-    font-size: 2em;
+    font-size: 2.4em;
     font-weight: bold;
+    margin-bottom: 7.8px;
 }
 
 .warnElement .image {
@@ -79,7 +91,7 @@ main {
     /* background-color: blue; DEBUG */
     border-radius: 50px;
     right: 10px;
-    top: 1.4em;
+    top: 2em;
     padding: 5px;
     z-index: 2;
     position: absolute;

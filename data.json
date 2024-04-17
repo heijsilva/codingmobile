@@ -10,7 +10,7 @@
             "image": "kitchen.png",
             "imageDescription": "Imagem da Copa",
             "color": "#96A8E8",
-            "floorPlaner": "kitchen.png",
+            "floorPlaner": "reception.png",
             "workers": [
                 {
                     "name": "Graça",
