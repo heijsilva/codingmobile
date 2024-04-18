@@ -25,6 +25,7 @@ fetch('../data.json')
             item.className = 'item';
             const image = document.createElement("img");
             image.src = `assets/worker/${worker.image}`;
+            image.alt = `Foto de ${worker.name}`;
             const name = document.createElement("p");
             name.innerText = worker.name;
 

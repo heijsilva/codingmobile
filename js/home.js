@@ -33,6 +33,7 @@ fetch('../data.json')
 
             const alertButton = document.createElement('button');
             alertButton.setAttribute('onClick', `window.location.href = window.location.origin+'/details.html?id=${warn.id}'`);
+            alertButton.setAttribute('aria-label', 'Descrição sobre a denuncia.');
             const alertIcon = document.createElement('ion-icon');
             alertIcon.setAttribute('name', 'alert-circle-sharp');
             alertButton.appendChild(alertIcon);
@@ -40,6 +41,7 @@ fetch('../data.json')
 
             const helpButton = document.createElement('button');
             helpButton.setAttribute('onClick', `window.location.href = window.location.origin+'/infos.html?id=${warn.id}'`);
+            helpButton.setAttribute('aria-label', 'Informações sobre a localidade.');
             const helpIcon = document.createElement('ion-icon');
             helpIcon.setAttribute('name', 'help-circle-sharp');
             helpButton.appendChild(helpIcon);
