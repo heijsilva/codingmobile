@@ -27,6 +27,10 @@
                 {
                     "name": "Fernanda",
                     "image": "fernanda.png"
+                },
+                {
+                    "name": "Ju",
+                    "image": "ju.png"
                 }
             ]            
         },
@@ -55,6 +59,10 @@
                 {
                     "name": "Fernanda",
                     "image": "fernanda.png"
+                },
+                {
+                    "name": "Ju",
+                    "image": "ju.png"
                 }
             ]
         }

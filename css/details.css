@@ -73,7 +73,7 @@ span {
     gap: 20px;
 }
 
-button {
+.actions button {
     padding: 5px 10px;
     font-size: 1.2em;
     font-weight: 500;
