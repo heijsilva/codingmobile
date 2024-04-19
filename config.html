@@ -17,6 +17,11 @@
     <link rel="manifest" href="/manifest.json">
 </head>
 <body>
+    <header class="nav">
+        <button onclick="history.back()" aria-label="Voltar">
+            <ion-icon name="chevron-back"></ion-icon>
+        </button>
+    </header>
     <main>
         <section class="header">
             <ion-icon name="settings"></ion-icon>
@@ -26,6 +31,7 @@
             <img class="userImage">
             <p class="userName"></p>
         </section>
+
         <section class="cfg">
             <section class="cfgConta">
                 <h2>Configurações da conta</h2>
@@ -40,11 +46,28 @@
             </section>
 
             <section class="cfgNotificacao">
-
+                <h2>Notificações</h2>
+                <div>
+                    <label for="cfgRep">Notificações de reporte</label>
+                    <input type="checkbox" name="cfgRep" id="cfgRep" checked>
+                </div>
+                <div>
+                    <label for="cfgAllArea">Todas Áreas</label>
+                    <input type="checkbox" name="cfgAllArea" id="cfgAllArea" checked>
+                </div>
             </section>
-
         </section>
     </main>
-    
+    <nav>
+        <button aria-label="Denuncias">
+            <ion-icon name="alert-circle-outline"></ion-icon>
+        </button>
+        <button aria-label="Denunciar">
+            <ion-icon name="megaphone-outline"></ion-icon>
+        </button>
+        <button aria-label="Configurações">
+            <ion-icon name="settings-outline"></ion-icon>
+        </button>
+    </nav>
 </body>
 </html>

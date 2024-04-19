@@ -35,12 +35,18 @@ main {
     border: 2px solid #8BD784;
 }
 
+.cfg {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .cfg h2 {
     color: #ADADAD;
     font-size: 1.2em;
 }
 
-.cfgConta {
+.cfgConta, .cfgNotificacao {
     display: flex;
     flex-direction: column;
     gap: 10px;
