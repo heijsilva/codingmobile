@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/report.css">
+    <title>Report</title>
+</head>
+
+
+<body>
+    <h1>Descreva a situação</h1>
+    <div class="chat-container">
+        <div id="chat-box"></div>
+        <input type="text" id="user-input" placeholder="Digite sua mensagem...">
+        <button onclick="sendMessage()">Enviar</button>
+      </div>
+
+      <h1>Adicionar mídia</h1>
+      <button onclick="openCamera()">Abrir Câmera</button>
+      <video id="camera-feed" autoplay></video>
+      <canvas id="canvas" style="display:none;"></canvas>
+      <button onclick="captureImage()">Capturar Imagem</button>
+      <img id="captured-image" src="" alt="Captured Image" style="display:none;">
+      
+
+
+      
+
+      <h1>Pessoas relacionadas</h1>
+
+
+    
+      <script src="report.js"></script>
+
+</body>
+</html>
