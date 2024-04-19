@@ -1,3 +1,6 @@
+const carosel = document.querySelector(".carosel");
+
+
 function sendMessage() {
     var userInput = document.getElementById("user-input").value;
     var chatBox = document.getElementById("chat-box");
@@ -29,7 +32,7 @@ function sendMessage() {
   }
   
 
-  let videoStream;
+let videoStream;
 let videoElement = document.getElementById('camera-feed');
 let canvasElement = document.getElementById('canvas');
 let imageElement = document.getElementById('captured-image');
@@ -62,3 +65,26 @@ function sendMessage() {
     // Limpa o campo de entrada após o envio
     document.getElementById("user-input").value = "";
 }
+
+
+fetch('../data.json')
+  .then(response => response.json())
+  .then(data => {
+    const warn = data.warns[0];
+    
+    warn.workers.map(worker => {
+    const item = document.createElement("div");
+    item.className = 'item';
+    const image = document.createElement("img");
+    image.src = `assets/worker/${worker.image}`;
+    image.alt = `Foto de ${worker.name}`;
+    const name = document.createElement("p");
+    name.innerText = worker.name;
+
+    item.appendChild(image);
+    item.appendChild(name);
+
+      carosel.appendChild(item);
+    });
+  }
+);
