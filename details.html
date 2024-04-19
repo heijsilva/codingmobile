@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#B0E0AC"/>
+    <meta name="description" content="Aplicativo para mapear pontos de riscos no ecossistema empresarial.">
+    <meta name="theme-color" content="#B0E0AC"/>
     <title>SafeZone</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/details.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/app.js"></script>
     <script src="js/details.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="manifest" href="/manifest.json">
 </head>
 <body>
+    <header class="nav">
+        <button onclick="history.back()" aria-label="Voltar">
+            <ion-icon name="chevron-back"></ion-icon>
+        </button>
+    </header>
     <main>
         <section class="image">
             <div class="img-wrapper">
@@ -46,10 +57,20 @@
         </section>
         <section class="floorplanner">
             <div class="img-wrapper">
-                <img src="assets/floorplaner/reception.png" alt="">
+                <img class="floorplaner-img" src="" alt="">
             </div>
         </section>
     </main>
-    
+    <nav>
+        <button aria-label="Denuncias">
+            <ion-icon name="alert-circle-outline"></ion-icon>
+        </button>
+        <button aria-label="Denunciar">
+            <ion-icon name="megaphone-outline"></ion-icon>
+        </button>
+        <button aria-label="Configurações">
+            <ion-icon name="settings-outline"></ion-icon>
+        </button>
+    </nav>
 </body>
 </html>

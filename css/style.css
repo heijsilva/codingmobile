@@ -26,8 +26,19 @@ p, h1, h2 {
     font-family: "Public Sans", sans-serif;
 }
 
+header.nav {
+    top: 5px;
+    position: fixed;
+    z-index: 1;
+}
+
+header.nav ion-icon {
+    height: 25px;
+    width: 25px;
+}
+
 body {
-    margin: 15px 10px 0;
+    margin: 15px 10px 40px 10px;
 }
 
 button {
