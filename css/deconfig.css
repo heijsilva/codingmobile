@@ -8,6 +8,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
+
 }
 
 .header {
@@ -30,4 +31,22 @@ main {
 
 .user img {
     width: 40px;
+    border-radius: 100%;
+    border: 2px solid #8BD784;
+}
+
+.cfg h2 {
+    color: #ADADAD;
+    font-size: 1.2em;
+}
+
+.cfgConta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cfg div {
+    display: flex;
+    justify-content: space-between;
 }
