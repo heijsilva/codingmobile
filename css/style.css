@@ -22,7 +22,7 @@
     'opsz' 24
 }
 
-p, h1, h2 {
+p, h1, h2, label {
     font-family: "Public Sans", sans-serif;
 }
 
@@ -86,4 +86,3 @@ nav button ion-icon {
     width: 100%;
     object-fit: cover;
 }
-

@@ -8,11 +8,11 @@
     <meta name="theme-color" content="#B0E0AC"/>
     <title>SafeZone</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/details.css">
+    <link rel="stylesheet" href="css/config.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/details.js" defer></script>
+    <script src="js/config.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="manifest" href="/manifest.json">
 </head>
@@ -23,42 +23,39 @@
         </button>
     </header>
     <main>
-        <section class="image">
-            <div class="img-wrapper">
-                <img class="img-details" src="" alt="">
-            </div>
+        <section class="header">
+            <ion-icon name="settings"></ion-icon>
+            <h1>Configurações</h1>
         </section>
-        <section class="title">
-            <h1 class="title-content"></h1>
-            <p class="group"></p>
+        <section class="user">
+            <img class="userImage">
+            <p class="userName"></p>
         </section>
-        <section class="details">
-            <h2 class="details-content"></h2>
-            <p>Avalie este risco:</p>
-            <div class="rating">
-                <span class="material-symbols-outlined satisfied">
-                    sentiment_satisfied
-                </span>
-                <span class="material-symbols-outlined neutral">
-                    sentiment_neutral
-                </span>
-                <span class="material-symbols-outlined dissatisfied">
-                    sentiment_dissatisfied
-                </span>
-            </div>
-        </section>
-        <section class="actions">
-            <button class="report">Reporte
-                <ion-icon name="megaphone"></ion-icon>
-            </button>
-            <button class="emergency">Emergência
-                <ion-icon name="alert-circle"></ion-icon>
-            </button>
-        </section>
-        <section class="floorplanner">
-            <div class="img-wrapper">
-                <img class="floorplaner-img" src="" alt="">
-            </div>
+
+        <section class="cfg">
+            <section class="cfgConta">
+                <h2>Configurações da conta</h2>
+                <div>
+                    <p>Editar Perfil</p>
+                    <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+                <div>
+                    <p>Alterar Senha</p>
+                    <ion-icon name="chevron-forward"></ion-icon>
+                </div>
+            </section>
+
+            <section class="cfgNotificacao">
+                <h2>Notificações</h2>
+                <div>
+                    <label for="cfgRep">Notificações de reporte</label>
+                    <input type="checkbox" name="cfgRep" id="cfgRep" checked>
+                </div>
+                <div>
+                    <label for="cfgAllArea">Todas Áreas</label>
+                    <input type="checkbox" name="cfgAllArea" id="cfgAllArea" checked>
+                </div>
+            </section>
         </section>
     </main>
     <nav>

@@ -1,0 +1,58 @@
+@import url('./style.css');
+
+body {
+    margin-top: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.header ion-icon {
+    color: #8BD784;
+    font-size: 33vw;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user img {
+    width: 40px;
+    border-radius: 100%;
+    border: 2px solid #8BD784;
+}
+
+.cfg {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cfg h2 {
+    color: #ADADAD;
+    font-size: 1.2em;
+}
+
+.cfgConta, .cfgNotificacao {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cfg div {
+    display: flex;
+    justify-content: space-between;
+}
